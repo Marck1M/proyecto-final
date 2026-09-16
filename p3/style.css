@@ -1,0 +1,22 @@
+.text-verde {
+    color: #2d5a27;
+}
+
+.btn-verde {
+    background-color: #2d5a27;
+    color: white;
+}
+
+.btn-verde:hover {
+    background-color: #1b3818;
+    color: white;
+}
+
+.footer-verde {
+    background-color: #1b3818;
+}
+
+.img-prod {
+    height: 180px;
+    object-fit: cover;
+}

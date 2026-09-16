@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es" class="h-full scroll-smooth">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="style.css">
+  <title>Portafolio</title>
+</head>
+<body class="min-h-screen p-6 md:p-10 flex flex-col justify-between color-fondo font-sans">
+
+  <header class="flex justify-between items-center pb-4 w-full header-borde">
+    <span class="font-bold text-lg logo-color">M</span>
+    <nav class="space-x-4 text-sm nav-color">
+      <a href="" class="hover-nav">Sobre mí</a>
+      <a href="" class="hover-nav">Proyectos</a>
+      <a href="" class="hover-nav">Contacto</a>
+    </nav>
+    <a href="#" class="px-3 py-1 text-xs rounded text-white btn-cv">CV</a>
+  </header>
+
+  <main id="sobre-mi" class="flex flex-col md:flex-row justify-between items-center gap-10 py-10">
+    <div class="space-y-3 text-center md:text-left max-w-xl">
+      <h1 class="text-3xl md:text-4xl font-bold text-white">Marck Alexander</h1>
+      <p class="profesion-color font-medium">Desarrolladora Front-End</p>
+      <p class="texto-color text-sm">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="flex gap-3 justify-center md:justify-start pt-2">
+        <a href="#proyectos" class="btn-ver text-white px-4 py-2 rounded text-xs font-medium">Ver proyectos →</a>
+        <a href="#contacto" class="btn-cont text-white px-4 py-2 rounded text-xs font-medium">Contactar</a>
+      </div>
+    </div>
+    <div class="avatar shrink-0 overflow-hidden">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSG1aZicaEJyAXAcOlzeF57Z3H25OI955fwQsOfKQrzdGe1SBomJyfsR9D_&s=10" class="w-full h-full object-cover">
+    </div>
+  </main>
+
+  <section id="proyectos" class="space-y-4 w-full pb-4">
+    <h3 class="font-bold titulo">Proyectos destacados</h3>
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+      
+      <div class="card space-y-3">
+        <img src="images/Proyecto1img.png" class="img-proj object-cover">
+        <h4 class="font-bold text-sm titulo">TaskFlow</h4>
+        <p class="texto-color text-xs">Gestor de tareas local.</p>
+        <div class="flex justify-between items-center pt-1">
+          <span class="tag text-xs">HTML | CSS | JS</span>
+          <a href="https://marck1m.github.io/PracticasHTML/ " target="_blank" class="link text-xs">Ver sitio </a>
+        </div>
+      </div>
+
+      <div class="card space-y-3">
+        <img src="URL_2" class="img-proj object-cover">
+        <h4 class="font-bold text-sm titulo">Weather App</h4>
+        <p class="texto-color text-xs">Clima en tiempo real.</p>
+        <div class="flex justify-between items-center pt-1">
+          <span class="tag text-xs">HTML | CSS | JS</span>
+          <a href="" target="_blank" class="link text-xs">Ver sitio </a>
+        </div>
+      </div>
+
+      <div class="card space-y-3">
+        <img src="URL_3" class="img-proj object-cover">
+        <h4 class="font-bold text-sm titulo">Focus Landing</h4>
+        <p class="texto-color text-xs">Landing page SaaS.</p>
+        <div class="flex justify-between items-center pt-1">
+          <span class="tag text-xs">HTML | CSS</span>
+          <a href="" target="_blank" class="link text-xs">Ver sitio </a>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section id="contacto"></section>
+</body>
+</html>
