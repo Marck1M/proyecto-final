@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desarrollo de Software</title>
+    <link rel="stylesheet" href="styleA.css">
+</head>
+<body>
+
+<header>
+    <nav>
+        <a href="#inicio" class="logo">Mi Web</a>
+        <input type="checkbox" id="menu">
+        <label for="menu">Menú</label>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#acerca">Acerca de</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#galeria">Galería</a></li>
+            <li><a href="#testimonios">Testimonios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main>
+
+<section id="inicio" class="hero">
+    <h1>Desarrollo de Software</h1>
+    <p>Soluciones digitales modernas y funcionales.</p>
+    <a href="#contacto" class="btn">Empezar</a>
+</section>
+
+<section id="acerca">
+    <h2>Acerca de</h2>
+    <div class="acerca">
+        <img src="https://picsum.photos/500/300" alt="Desarrollo de software">
+        <p>Creamos soluciones digitales utilizando HTML y CSS, aplicando buenas prácticas, diseño responsive y estructuras adaptables a diferentes dispositivos.</p>
+    </div>
+</section>
+
+<section id="servicios" class="blanco">
+    <h2>Servicios</h2>
+    <div class="grid">
+        <article>
+            <h3>Diseño</h3>
+            <p>Maquetación limpia y organizada.</p>
+        </article>
+        <article>
+            <h3>Estructura</h3>
+            <p>Uso de Flexbox y CSS Grid.</p>
+        </article>
+        <article>
+            <h3>Adaptabilidad</h3>
+            <p>Diseño responsive para todos los dispositivos.</p>
+        </article>
+    </div>
+</section>
+
+<section id="galeria">
+    <h2>Galería</h2>
+    <div class="galeria">
+        <img src="https://picsum.photos/400/250?1" alt="Proyecto 1">
+        <img src="https://picsum.photos/400/250?2" alt="Proyecto 2">
+        <img src="https://picsum.photos/400/250?3" alt="Proyecto 3">
+        <img src="https://picsum.photos/400/250?4" alt="Proyecto 4">
+    </div>
+</section>
+
+<section id="testimonios" class="blanco">
+    <h2>Testimonios</h2>
+    <div class="grid">
+        <article>
+            <p>"Excelente trabajo y diseño."</p>
+            <b>- Juan Pérez</b>
+        </article>
+        <article>
+            <p>"Funciona muy bien en celular."</p>
+            <b>- María Gómez</b>
+        </article>
+        <article>
+            <p>"La página es sencilla y fácil de usar."</p>
+            <b>- Carlos Rodríguez</b>
+        </article>
+    </div>
+</section>
+
+<section id="contacto">
+    <h2>Contacto</h2>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input id="nombre" type="text" required>
+
+    <label for="correo">Correo</label>
+    <input id="correo" type="email" required>
+
+    <label for="mensaje">Mensaje</label>
+    <textarea id="mensaje" rows="5" required></textarea>
+
+    <button class="btn" type="submit">Enviar</button>
+</form>
+
+</section>
+
+</main>
+
+<footer>
+    <p>&copy; 2026 - Todos los derechos reservados</p>
+</footer>
+
+</body>
+</html>
